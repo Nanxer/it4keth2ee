@@ -1,0 +1,3 @@
+Sitemap: https://team.it4keth2ee.top/it4keth2ee/sitemap.xml
+User-agent:*
+Disallow:

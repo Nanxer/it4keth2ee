@@ -1,16 +1,3 @@
 import comp from "/home/user/桌面/User/github/it4keth2ee/docs/.vuepress/.temp/pages/writeups/index.html.vue"
-const data = JSON.parse("{\"path\":\"/writeups/\",\"title\":\"writeups\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"writeups\",\"createTime\":\"2025/10/14 10:32:48\",\"permalink\":\"/writeups/\"},\"readingTime\":{\"minutes\":0.03,\"words\":9},\"git\":{},\"filePathRelative\":\"writeups/README.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/writeups/\",\"title\":\"writeups\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"writeups\",\"createTime\":\"2025/10/14 10:32:48\",\"permalink\":\"/writeups/\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"writeups\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-10-15T00:14:35.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://team.it4keth2ee.top/it4keth2ee/writeups/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"itake光明\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"writeups\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-10-15T00:14:35.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-10-15T00:14:35.000Z\"}]]},\"readingTime\":{\"minutes\":0.03,\"words\":9},\"git\":{\"createdTime\":1760486219000,\"updatedTime\":1760487275000,\"contributors\":[{\"name\":\"Nanxer\",\"username\":\"Nanxer\",\"email\":\"1467706002@qq.com\",\"commits\":3,\"avatar\":\"https://avatars.githubusercontent.com/Nanxer?v=4\",\"url\":\"https://github.com/Nanxer\"}]},\"filePathRelative\":\"writeups/README.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
