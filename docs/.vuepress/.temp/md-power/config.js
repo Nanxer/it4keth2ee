@@ -3,7 +3,6 @@ import Tabs from '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress
 import CodeTabs from '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress-plugin-md-power/lib/client/components/CodeTabs.vue'
 import Plot from '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress-plugin-md-power/lib/client/components/Plot.vue'
 import FileTreeNode from '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress-plugin-md-power/lib/client/components/FileTreeNode.vue'
-import { setupMarkHighlight } from '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress-plugin-md-power/lib/client/composables/mark.js'
 
 import '/home/user/桌面/User/github/it4keth2ee/node_modules/vuepress-plugin-md-power/lib/client/styles/index.css'
 
@@ -15,7 +14,6 @@ export default defineClientConfig({
     app.component('FileTreeNode', FileTreeNode)
   },
   setup() {
-        setupMarkHighlight("eager")
-
+    
   }
 })

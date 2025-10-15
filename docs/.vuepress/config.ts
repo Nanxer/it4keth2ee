@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/it4keth2ee/',
+  base: '/',
   lang: 'zh-CN',
   title: "itake光明",
   description: '',
@@ -37,9 +37,9 @@ export default defineUserConfig({
     docsBranch: 'main',
 
     /* 页内信息 */
-     editLink: true,
-     lastUpdated: true,
-     contributors: true,
+    // editLink: true,
+    lastUpdated: true,
+    contributors: true,
     // changelog: false,
 
     /**

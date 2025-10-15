@@ -7,6 +7,6 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: 'Writeups', link: '/' ,icon: 'streamline-ultimate-color:space-rocket-earth'},
-  { text: 'Blogs', link: '/blogs/' ,icon: 'streamline-ultimate-color:blogger-logo'}
+  // { text: 'Writeups', link: '/' ,icon: 'streamline-ultimate-color:space-rocket-earth'},
+  // { text: 'Blogs', link: '/blogs/' ,icon: 'streamline-ultimate-color:blogger-logo'}
 ])
