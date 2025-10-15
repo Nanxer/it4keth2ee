@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/it4keth2ee/',
   lang: 'zh-CN',
   title: "itake光明",
   description: '',
